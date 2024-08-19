@@ -1,0 +1,55 @@
+body 
+{
+background-image: url("stagemiccc.webp");
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-color: red;
+}
+#curtainImg
+{
+position: absolute;
+right: 1000px;
+top: 0px;
+width: 909px;
+height: 946px;
+}
+#curtainImg2
+{
+position: absolute;
+left: 1000px;
+top: 0px;
+width: 909px;
+height: 946px;
+}
+#head 
+{
+position: absolute;
+z-index: 1;
+left: 42%;
+color: darkcyan;
+font-size: 36px;
+font-family: Arial, sans-serif;
+background-color: rgba(255, 255, 255, 0.8);
+border: 3px solid darkcyan;
+border-radius: 10px;
+padding: 15px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+text-align: center;
+}
+button 
+{
+background-color: darkcyan;
+color: white;
+z-index: 1;
+border: none;
+border-radius: 8px;
+padding: 12px 24px;
+font-size: 16px;
+font-family: Arial, sans-serif;
+cursor: pointer;
+transition: background-color 0.3s ease, transform 0.2s ease;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+outline: none;
+}
